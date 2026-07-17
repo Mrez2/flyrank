@@ -1,0 +1,89 @@
+
+
+AI (Artificial Intelligence): Systems that perform tasks requiring human-like intelligence.
+Machine Learning (ML): A subset of AI where computers learn patterns from data instead of being explicitly programmed.
+Analytics: Using data to understand what happened or make decisions through analysis.
+Rule-based systems: Programs that follow fixed "if-then" rules written by humans.
+
+Example:
+
+Spam filter with keywords only → Rule-based
+Spam filter that learns from thousands of emails → Machine learning
+
+2. Explain the ML process (the ML loop)
+
+Describe the typical workflow:
+
+Collect data.
+Clean and prepare the data.
+Split into training and testing sets.
+Train a model.
+Evaluate its performance.
+Improve and repeat if needed.
+
+3. Explain supervised vs. unsupervised learning
+
+Supervised learning
+Uses labeled data.
+Example: Predict whether an email is spam or not.
+
+Unsupervised learning
+Uses unlabeled data.
+Example: Group customers with similar shopping habits.
+
+4. Explain overfitting vs. generalization
+Overfitting: The model memorizes the training data and performs poorly on new data.
+Generalization: The model learns real patterns and performs well on unseen data.
+we can identify it as:
+What type of ML task is it?
+What is the target (what are you predicting)?
+
+Questions and answers:
+Question	Your Answer
+
+ML task	Classification, Clustering, Ranking, or Scoring
+Target	What the model predicts
+Success metric	Accuracy, Precision, Recall, F1-score etc.
+Which ML task fits?
+Classification
+
+Examples:
+Spam or not spam
+Fraud or not fraud
+
+Metric:
+Accuracy
+Precision
+Recall
+F1-score
+Clustering
+Group similar items without labels.
+
+Examples:
+Customer segments
+News articles by topic
+
+Metric:
+Silhouette Score
+Davies–Bouldin Index
+Ranking
+Order items from best to worst.
+Examples:
+Search engine results
+Product recommendations
+
+Metric:
+MAP
+MRR
+Scoring (Regression)
+Predict a number.
+
+Examples:
+House price
+Salary
+
+Metric:
+RMSE
+MAE
+R²
+Example
